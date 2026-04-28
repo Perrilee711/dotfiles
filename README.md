@@ -41,5 +41,7 @@ cd ~/dotfiles && bash install.sh
   - 用法：`cp ~/dotfiles/templates/CHECKLIST-DEPLOY.md ~/path/to/project/` 然后替换 `<PLACEHOLDER>`
 - `templates/EMERGENCY-PLAYBOOK.md` — 紧急事故 Playbook · 10 节通用模板
   - 30 秒分诊 / 紧急回滚 / DB/PM2/nginx/SSL/限流/DDoS 全覆盖
+- `templates/AI-CONTINUITY-PLAN.md` — 防 AI 单点失效 · 5 层防御策略
+  - DeepSeek + Kimi + Ollama 多 AI 备份 + GitHub 物理备份 + 应急切换 SOP
 - `vscode/settings.json` — 所有 Codespaces 共享统一 VS Code 配色
 - 后续接的客户项目也吃这套
