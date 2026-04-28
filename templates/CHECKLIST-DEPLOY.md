@@ -93,6 +93,22 @@ git push origin main                    # CI 自动部署回滚版本
 
 ---
 
+## 7. AI Review · /ultrareview 手动触发
+
+PR 大改动想要 AI 二次审查时，在本地项目目录跑：
+
+```bash
+/ultrareview <PR#>          # review 指定 PR (有 GitHub remote)
+/ultrareview                # review 当前 branch 本地修改 (无需 remote)
+```
+
+走你的 Claude Max 订阅 quota · 不另外付 API token 费。
+
+适用：P0 改动 / 不熟悉的领域 / 想要二次合伙人意见。
+不适用：typo / 简单修改 / 跑通了测试的小改。
+
+---
+
 ## 与 CLAUDE.md 三条规则配合
 
 如果你和 Claude（技术合伙人）合作，CLAUDE.md 全局指令要求：
